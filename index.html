@@ -1,0 +1,368 @@
+<!DOCTYPE html> 
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Tracktor</title>
+</head>
+<body class="">
+     <header class="bg-white fixed top-0 min-w-full max-h-[70px] md:shadow-xl">  
+        <div class="max-w-screen-xl mx-auto  px-4 ">
+            <div class="block flex justify-between my-5 font-semibold items-center">   
+                <div class=" hidden md:block text-gray-400  text-sm uppercase">
+                    Аренда экскаваторов в москве
+                </div>
+                <div class="flex uppercase font-bold text-2xl" >
+                    <div class="text-blue-700">zem</div>
+                    <div class="text-black-700">stroy</div>
+                </div>
+                <div class="hidden md:block md:flex gap-3.5 items-center">
+                    <div class="">
+                        <img src="./images/phone-logo.png" alt="">
+                    </div>
+                    <div class="  text-xl">
+                        +7 999 276 60 21
+                    </div>
+                </div>
+            </div>        
+         </div>
+        <div class=" md:hidden burger-menu">
+            <input id="menu-toggle" type="checkbox" />
+            <label class="menu-btn" for="menu-toggle">
+                <span></span>
+            </label>
+            <ul class="menubox hover:bg-gray-400 text-center ">
+                <li><a class="menu-item hover:bg-gray-200" href="#">Заказать технику</a></li>
+                <li><a class="menu-item hover:bg-gray-200" href="#adv">Преимущества аренды спецтехники JCB у нас</a></li>
+                <li><a class="menu-item hover:bg-gray-200" href="#photo">Фотогалерея</a></li>
+                <li><a class="menu-item hover:bg-gray-200" href="#arend">Аренда экскаваторов JCB в Москве</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="main">
+        <section class="bbb flex flex-col justify-center my-auto   h-screen bg-cover pt-15 ">
+            <div class=>   
+            <div class="container mx-auto ">
+                <!-- Вот тут сделал правку -->
+                <div class="flex flex-col gap-y-20 xl:gap-y-0 xl:flex-row justify-between items-center font-bold">
+                    <!-- конец -->
+                    <div class="flex gap-y-12 flex-col items-center">
+                        <div class=" text-xl max-w-2xl sm:text-[25px] lg:text-4xl text-white   leading-[52px] ">
+                            Сдаем в аренду спецтехнику: экскаваторы-погрузчики JCB 3CX, полноповоротные экскаваторы JCB JS160W
+                        </div>
+                        <div class="text-sm text-white">
+                            <a class="py-6 px-14 bg-blue-700 rounded-full shadow-xl uppercase hover:bg-blue-900" href="#card">Наша техника</a>
+                        </div>
+                    </div>
+                    <div class=" min-h-[300px] min-w-[300px]      md:py-4 md:px-10 md:min-h-[360px] flex flex-col items-center  bg-white rounded-lg ">
+                        <div class="my-7 ">
+                            <img src="./images/jcb.png" alt="">
+                        </div>
+                        <div class=" text-xl font-bold text-stone-900 uppercase mb-3 md:mb-7">
+                            заказать технику
+                        </div>
+                        <div class="mb-4 ">
+                            <form class="">
+                                <input type="tel" class="phone bg-[url('/images/phone.png')] bg-no-repeat bg-[center_left_0.7rem] border-solid border-2 border-gray-300 px-9 py-3 rounded-lg mb-3" placeholder="+7(___)-___-__-__">
+                            </form>
+                        </div>
+                        <div class="text-base text-white ">
+                            <!-- Вот тут сделал правку -->
+                            <a class="py-4 px-8 2xl:px-20 bg-black rounded-lg shadow-[0_35px_30px_-9px_rgba(0,0,0,0.3)] " href="#">Оставить заявку</a>
+                             <!-- конец -->
+                        </div>
+                    </div>
+                </div>   
+            </div>
+        </div> 
+        </section>
+        <section class="mb-20">
+            <div class="container mx-auto ">
+                <div class="flex flex-col items-center mt-20 gap-9 font-bold mb-20">
+                    <div class=" text-xl   text-center  md:text-3xl text-[#030303]    leading-9 " id="adv">
+                        Преимущества аренды спецтехники JCB у нас
+                    </div>
+                    <div class="text-[#989494] uppercase text-sm leading-4">
+                        П о ч е м у   м ы
+                    </div>
+                </div>
+                <!-- Вот тут сделал правку -->
+                <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-5 justify-between items-center font-bold font-medium text-lg leading-5 mb-24  ">
+                <!-- конец -->
+                    <div class="flex flex-col gap-6 items-center ">
+                        <div class=" py-9 px-10 rounded-full bg-[#DEE1F0] mb-5  ">
+                            <img src="./images/operators.png" alt="" >                    
+                        </div>
+                        <div class="bord">
+                            Свои операторы
+                        </div>
+                    </div>
+                    <div class="  flex flex-col gap-6 items-center  ">
+                        <div class="  py-9 px-10 rounded-full bg-[#DEE1F0] mb-4">
+                            <img src="./images/years10.png" alt="">                    
+                        </div>
+                        <div class="bord mt-1">
+                            Опыт работы – 10 лет
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-6 items-center">
+                        <div class="  py-9 px-10 rounded-full bg-[#DEE1F0] ">
+                            <img src="./images/adventages.png" alt="">                    
+                        </div>
+                        <div class=" bord mt-5">
+                            Гарантия наличия
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-6 items-center">
+                        <div class="  py-9 px-10 rounded-full bg-[#DEE1F0] mb-5">
+                            <img src="./images/everytime.png" alt="">                    
+                        </div>
+                        <div class="bord ">
+                            Оперативно, 24/7    
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center text-[#030303] text-3xl leading-9 font-bold mb-6" id="photo">
+                    Фотогалерея
+                </div>
+                <div class="gallery grid grid-cols-1 justify-items-center gap-3  lg:grid-cols-3 gap-6  ">
+                    <img class=" max-h-[250px] min-[375px]:max-h-[330px]" src="./images/up.png" alt="">
+                    <img class=" max-h-[315px] min-[375px]:max-h-[420px]" src="./images/front.png" alt="">
+                        <div class="rowl row-span-2">
+                            <img class="mb-6  min-[375px]:min-w-[360px] min-[375px]:min-h-[200px] " src="./images/col1.png" alt="">
+                            <img class=" min-[375px]:min-w-[360px] min-[375px]:min-h-[200px]" src="./images/col2.png" alt="">
+                        </div>
+                </div>
+            </div>  
+        </section>
+        <section class="bg-[#2E41A1]" id="card">
+            <div class="container   mx-auto">
+                <div class="text-[#FFFFFF] text-3xl leading-9 font-bold text-center mb-11 mt-16 pt-14 " id="arend">
+                    Аренда экскаваторов JCB в Москве
+                </div>
+                <div class="grid  grid-cols-1 md:grid-cols-2 xl:grid-cols-3 justify-items-center gap-4 items-center ">
+                    <div class="bg-white max-w-[300px] md:max-w-[360] mb-4">
+                        <div class="mb-2.5">
+                            <img src="./images/sec-card.png" alt="">
+                        </div>
+                        <div class="max-w-[278px] mx-auto">
+                            <div class="text-base font-bold md:text-xl text-black mb-8">
+                                Аренда экскаватора погрузчика JCB 3CX Super
+                            </div>
+                            <div class="text-sm flex justify-between font-medium md:text-base leading-4 mb-3">
+                                <div class="text-[#989494]">
+                                    Емкость ковша
+                                </div>
+                                <div class="text-[#000000] ">
+                                    1 м³
+                                </div>
+                            </div>
+                            <div class=" text-sm md:text-base flex justify-between font-medium  leading-4 mb-3">
+                                <div class="text-[#989494]">
+                                    Макс. глубина копания
+                                </div>
+                                <div class="text-[#000000] ">
+                                    5,93 м
+                                </div>
+                            </div>
+                            <div class="text-sm md:text-base flex justify-between font-medium  leading-4 mb-3">
+                                <div class="text-[#989494]">
+                                    Эксплуат. масса
+                                </div>
+                                <div class="text-[#000000] ">
+                                    8 425 кг
+                                </div>
+                            </div>
+                            <div class=" text-sm md:text-base flex justify-between font-medium e leading-4 mb-4 border-b-4 pb-6">
+                                <div class="text-[#989494]">
+                                    Мощность двигателя
+                                </div>
+                                <div class="text-[#000000] ">
+                                    93 л.c.
+                                </div>
+                            </div>
+                            <div class="flex justify-between mb-8">
+                                <div class="flex flex-col gap-3 ">
+                                    <div class="font-bold text-xs leading-4 text-[#989494] uppercase">
+                                        Цена за час
+                                    </div>
+                                    <div class=" text-lg text-[#000000] font-bold md:text-xl leading-6">
+                                        от 1 500 руб.
+                                    </div>
+                                </div>
+                                <div class="flex flex-col gap-3 ">
+                                    <div class="font-bold text-xs leading-4 text-[#989494] uppercase">
+                                        Цена за смену
+                                    </div>
+                                    <div class=" text-lg md:text-xl text-[#000000] font-bold leading-6">
+                                        от 12 000 руб.
+                                    </div>
+                                </div> 
+                            </div>
+                            <div class="text-base text-white text-center mb-9 uppercase font-bold">
+                                <a class="bg-blue-700 rounded-full shadow-xl py-4 px-14 hover:bg-blue-900  " href="#">Арендовать   </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-white max-w-[300px] md:max-w-[360] mb-4">
+                        <div class="mb-2.5">
+                            <img src="./images/sec-card.png" alt="">
+                        </div>
+                        <div class="max-w-[278px] mx-auto">
+                            <div class="text-base font-bold md:text-xl text-black mb-8">
+                                Аренда экскаватора погрузчика JCB 3CX Super
+                            </div>
+                            <div class="text-sm flex justify-between font-medium md:text-base leading-4 mb-3">
+                                <div class="text-[#989494]">
+                                    Емкость ковша
+                                </div>
+                                <div class="text-[#000000] ">
+                                    1 м³
+                                </div>
+                            </div>
+                            <div class=" text-sm md:text-base flex justify-between font-medium  leading-4 mb-3">
+                                <div class="text-[#989494]">
+                                    Макс. глубина копания
+                                </div>
+                                <div class="text-[#000000] ">
+                                    5,93 м
+                                </div>
+                            </div>
+                            <div class="text-sm md:text-base flex justify-between font-medium  leading-4 mb-3">
+                                <div class="text-[#989494]">
+                                    Эксплуат. масса
+                                </div>
+                                <div class="text-[#000000] ">
+                                    8 425 кг
+                                </div>
+                            </div>
+                            <div class=" text-sm md:text-base flex justify-between font-medium e leading-4 mb-4 border-b-4 pb-6">
+                                <div class="text-[#989494]">
+                                    Мощность двигателя
+                                </div>
+                                <div class="text-[#000000] ">
+                                    93 л.c.
+                                </div>
+                            </div>
+                            <div class="flex justify-between mb-8">
+                                <div class="flex flex-col gap-3 ">
+                                    <div class="font-bold text-xs leading-4 text-[#989494] uppercase">
+                                        Цена за час
+                                    </div>
+                                    <div class=" text-lg text-[#000000] font-bold md:text-xl leading-6">
+                                        от 1 500 руб.
+                                    </div>
+                                </div>
+                                <div class="flex flex-col gap-3 ">
+                                    <div class="font-bold text-xs leading-4 text-[#989494] uppercase">
+                                        Цена за смену
+                                    </div>
+                                    <div class=" text-lg md:text-xl text-[#000000] font-bold leading-6">
+                                        от 12 000 руб.
+                                    </div>
+                                </div> 
+                            </div>
+                            <div class="text-base text-white text-center mb-9 uppercase font-bold">
+                                <a class="bg-blue-700 rounded-full shadow-xl py-4 px-14 hover:bg-blue-900  " href="#">Арендовать   </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-white max-w-[300px] md:max-w-[360] mb-4 ">
+                        <div class="mb-2.5">
+                            <img src="./images/sec-card.png" alt="">
+                        </div>
+                        <div class="max-w-[278px] mx-auto">
+                            <div class="text-base font-bold md:text-xl text-black mb-8">
+                                Аренда экскаватора погрузчика JCB 3CX Super
+                            </div>
+                            <div class="text-sm flex justify-between font-medium md:text-base leading-4 mb-3">
+                                <div class="text-[#989494]">
+                                    Емкость ковша
+                                </div>
+                                <div class="text-[#000000] ">
+                                    1 м³
+                                </div>
+                            </div>
+                            <div class=" text-sm md:text-base flex justify-between font-medium  leading-4 mb-3">
+                                <div class="text-[#989494]">
+                                    Макс. глубина копания
+                                </div>
+                                <div class="text-[#000000] ">
+                                    5,93 м
+                                </div>
+                            </div>
+                            <div class="text-sm md:text-base flex justify-between font-medium  leading-4 mb-3">
+                                <div class="text-[#989494]">
+                                    Эксплуат. масса
+                                </div>
+                                <div class="text-[#000000] ">
+                                    8 425 кг
+                                </div>
+                            </div>
+                            <div class=" text-sm md:text-base flex justify-between font-medium e leading-4 mb-4 border-b-4 pb-6">
+                                <div class="text-[#989494]">
+                                    Мощность двигателя
+                                </div>
+                                <div class="text-[#000000] ">
+                                    93 л.c.
+                                </div>
+                            </div>
+                            <div class="flex justify-between mb-8">
+                                <div class="flex flex-col gap-3 ">
+                                    <div class="font-bold text-xs leading-4 text-[#989494] uppercase">
+                                        Цена за час
+                                    </div>
+                                    <div class=" text-lg text-[#000000] font-bold md:text-xl leading-6">
+                                        от 1 500 руб.
+                                    </div>
+                                </div>
+                                <div class="flex flex-col gap-3 ">
+                                    <div class="font-bold text-xs leading-4 text-[#989494] uppercase">
+                                        Цена за смену
+                                    </div>
+                                    <div class=" text-lg md:text-xl text-[#000000] font-bold leading-6">
+                                        от 12 000 руб.
+                                    </div>
+                                </div> 
+                            </div>
+                            <div class="text-base text-white text-center mb-9 uppercase font-bold">
+                                <a class="bg-blue-700 rounded-full shadow-xl py-4 px-14 hover:bg-blue-900  " href="#">Арендовать   </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer class="mt-12 mb-14">
+        <div class="max-w-screen-xl mx-auto  px-4 ">
+            <div class="flex flex-col gap-5 md:flex-row justify-between my-5  font-semibold items-center">
+                <div class="flex uppercase font-bold text-2xl" >
+                    <div class="text-blue-700">zem</div>
+                    <div class="text-black-700">stroy</div>
+                </div>
+                <div class="text-gray-400  text-sm uppercase">
+                    Аренда экскаваторов в москве
+                </div>
+                <div class="flex gap-3.5 items-center">
+                    <div class="">
+                        <img src="./images/phone-logo.png" alt="">
+                    </div>
+                    <div class="text-xl ">
+                        +7 999 276 60 21
+                    </div>
+                </div>
+            </div>
+         </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
+
+
